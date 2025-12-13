@@ -1,0 +1,5 @@
+# OctoMap configuration
+# ME5250 - Abdul Rahman
+octomap_frame: world
+octomap_resolution: 0.025
+max_range: 2.5

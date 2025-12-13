@@ -1,0 +1,193 @@
+[0.248s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ur5_moveit', '--symlink-install']
+[0.248s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ur5_moveit'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d8fc22c6a50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d8fc22c6450>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d8fc22c6450>>, mixin_verb=('build',))
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.321s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abdulrahman/me5250/src/ur5_ws'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_controller' with type 'ros.ament_cmake' and name 'ur5_controller'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_description' with type 'ros.ament_cmake' and name 'ur5_description'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_moveit' with type 'ros.ament_python' and name 'ur5_moveit'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_moveit_config' with type 'ros.ament_cmake' and name 'ur5_moveit_config'
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hello_moveit' in 'src/hello_moveit'
+[0.431s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur5_controller' in 'src/ur5_controller'
+[0.431s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur5_description' in 'src/ur5_description'
+[0.431s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur5_moveit_config' in 'src/ur5_moveit_config'
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.439s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/abdulrahman/me5250/src/ur5_ws/install
+[0.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/abdulrahman/ur5_ws/install
+[0.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/abdulrahman/me5250_ws/install
+[0.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/abdulrahman/me5250/install
+[0.449s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 653 installed packages in /opt/ros/jazzy
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.620s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit', 'merge_install': False, 'path': '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit', 'symlink_install': True, 'test_result_base': None}
+[0.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.622s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit' with build type 'ament_python'
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'ament_prefix_path')
+[0.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/ament_prefix_path.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/ament_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/ament_prefix_path.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.199s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit'
+[1.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ament_index/resource_index/packages/ur5_moveit
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.xml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/launch/simulated_robot.launch.py
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/launch/moveit.launch.py
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/moveit.rviz
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/pilz_cartesian_limits.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/initial_positions.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/joint_limits.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/moveit_controllers.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/kinematics.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/ur5_robot.srdf
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/ros2_controllers.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config/controller_setting.yaml
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/ur5_moveit/insert_obstacle
+[2.620s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/ur5_moveit/reactive_replanning
+[2.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build --no-deps symlink_data --force
+[4.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'pythonpath_develop')
+[4.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/share/ur5_moveit/hook/pythonpath_develop.ps1'
+[4.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build --no-deps symlink_data --force
+[4.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/share/ur5_moveit/hook/pythonpath_develop.dsv'
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/share/ur5_moveit/hook/pythonpath_develop.sh'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit' for CMake module files
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit' for CMake config files
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib'
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/bin'
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/pkgconfig/ur5_moveit.pc'
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages'
+[4.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'pythonpath')
+[4.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/pythonpath.ps1'
+[4.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/pythonpath.dsv'
+[4.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/pythonpath.sh'
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/bin'
+[4.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit)
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.ps1'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.dsv'
+[4.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.sh'
+[4.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.bash'
+[4.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.zsh'
+[4.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/colcon-core/packages/ur5_moveit)
+[4.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.240s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.253s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.269s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.ps1'
+[4.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdulrahman/me5250/src/ur5_ws/install/_local_setup_util_ps1.py'
+[4.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.ps1'
+[4.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.sh'
+[4.278s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdulrahman/me5250/src/ur5_ws/install/_local_setup_util_sh.py'
+[4.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.sh'
+[4.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.bash'
+[4.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.bash'
+[4.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.zsh'
+[4.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.zsh'

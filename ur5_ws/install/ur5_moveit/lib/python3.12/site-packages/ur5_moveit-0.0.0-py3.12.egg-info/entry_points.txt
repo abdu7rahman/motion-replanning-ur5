@@ -1,0 +1,3 @@
+[console_scripts]
+insert_obstacle = ur5_moveit.insert_obstacle:main
+reactive_replanning = ur5_moveit.reactive_replanning:main

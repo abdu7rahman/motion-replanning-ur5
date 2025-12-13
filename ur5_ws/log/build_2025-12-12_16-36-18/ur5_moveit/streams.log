@@ -1,0 +1,48 @@
+[1.562s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build
+[2.063s] running develop
+[2.387s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.388s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.454s] Removing /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5-moveit.egg-link (link to .)
+[2.490s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build
+[2.492s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_moveit build --build-base /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build install --record /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/install.log --single-version-externally-managed install_data --force
+[2.990s] running egg_info
+[3.034s] writing ../../build/ur5_moveit/ur5_moveit.egg-info/PKG-INFO
+[3.034s] writing dependency_links to ../../build/ur5_moveit/ur5_moveit.egg-info/dependency_links.txt
+[3.035s] writing entry points to ../../build/ur5_moveit/ur5_moveit.egg-info/entry_points.txt
+[3.035s] writing requirements to ../../build/ur5_moveit/ur5_moveit.egg-info/requires.txt
+[3.035s] writing top-level names to ../../build/ur5_moveit/ur5_moveit.egg-info/top_level.txt
+[3.123s] reading manifest file '../../build/ur5_moveit/ur5_moveit.egg-info/SOURCES.txt'
+[3.124s] writing manifest file '../../build/ur5_moveit/ur5_moveit.egg-info/SOURCES.txt'
+[3.124s] running build
+[3.124s] running build_py
+[3.124s] copying ur5_moveit/reactive_replanning.py -> /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build/lib/ur5_moveit
+[3.125s] running install
+[3.135s] running install_lib
+[3.177s] creating /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit
+[3.177s] copying /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build/lib/ur5_moveit/insert_obstacle.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit
+[3.177s] copying /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build/lib/ur5_moveit/reactive_replanning.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit
+[3.178s] copying /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build/lib/ur5_moveit/__init__.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit
+[3.178s] byte-compiling /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit/insert_obstacle.py to insert_obstacle.cpython-312.pyc
+[3.181s] byte-compiling /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit/reactive_replanning.py to reactive_replanning.cpython-312.pyc
+[3.187s] byte-compiling /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit/__init__.py to __init__.cpython-312.pyc
+[3.187s] running install_data
+[3.187s] copying resource/ur5_moveit -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ament_index/resource_index/packages
+[3.188s] copying package.xml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit
+[3.188s] copying launch/simulated_robot.launch.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/launch
+[3.188s] copying launch/moveit.launch.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/launch
+[3.188s] copying config/moveit.rviz -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.188s] copying config/pilz_cartesian_limits.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.189s] copying config/initial_positions.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.189s] copying config/joint_limits.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.189s] copying config/moveit_controllers.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.189s] copying config/kinematics.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.190s] copying config/ur5_robot.srdf -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.190s] copying config/ros2_controllers.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.190s] copying config/controller_setting.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+[3.190s] running install_egg_info
+[3.236s] Copying ../../build/ur5_moveit/ur5_moveit.egg-info to /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5_moveit-0.0.0-py3.12.egg-info
+[3.237s] running install_scripts
+[3.530s] Installing insert_obstacle script to /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/ur5_moveit
+[3.530s] Installing reactive_replanning script to /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/ur5_moveit
+[3.530s] writing list of installed files to '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/install.log'
+[3.575s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_moveit build --build-base /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/build install --record /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/install.log --single-version-externally-managed install_data --force

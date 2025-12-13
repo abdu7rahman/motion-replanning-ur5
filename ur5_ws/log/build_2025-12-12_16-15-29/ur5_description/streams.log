@@ -1,0 +1,97 @@
+[0.030s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrahman/me5250/src/ur5_ws/src/ur5_description -DCMAKE_INSTALL_PREFIX=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description
+[0.077s] -- The C compiler identification is GNU 11.5.0
+[0.126s] -- The CXX compiler identification is GNU 11.5.0
+[0.141s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.345s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.558s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.774s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.936s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.941s] -- Added test 'xmllint' to check XML markup files
+[0.944s] -- Configuring done (0.9s)
+[0.947s] -- Generating done (0.0s)
+[0.949s] -- Build files have been written to: /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description
+[0.956s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrahman/me5250/src/ur5_ws/src/ur5_description -DCMAKE_INSTALL_PREFIX=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description
+[0.957s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description -- -j16 -l16
+[1.001s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description -- -j16 -l16
+[1.002s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description
+[1.012s] -- Install configuration: ""
+[1.012s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/launch
+[1.012s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/launch/rviz.launch.py
+[1.012s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/launch/gazebo.launch.py
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/urdf
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/urdf/initial_positions.yaml
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/urdf/ur5_robot.gazebo.xacro
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/urdf/ur5_robot.ros2_control.xacro
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/urdf/ur5_robot.urdf.xacro
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/config
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/config/view_config.rviz
+[1.013s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/config/ros2_gz_bridge.yaml
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/worlds
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/worlds/gazebo_world.sdf
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/rg2
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/rg2/finger.dae
+[1.014s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/rg2/finger_neutral.dae
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/rg2/hand.dae
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/robotiq_85_finger_tip_link.dae
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/robotiq_85_knuckle_link.dae
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/robotiq_85_finger_link.dae
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/base.dae
+[1.015s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/forearm.dae
+[1.016s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/robotiq_85_inner_knuckle_link.dae
+[1.016s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/wrist3.dae
+[1.016s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/shoulder.dae
+[1.018s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/SuctionCup.stl
+[1.018s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/robotiq_85_base_link.dae
+[1.020s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/wrist1.dae
+[1.020s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/wrist2.dae
+[1.021s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/visual/ur5/upperarm.dae
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/rg2
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/rg2/finger.stl
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/rg2/finger_neutral.stl
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/rg2/hand.stl
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5
+[1.024s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/shoulder.stl
+[1.025s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/robotiq_85_finger_tip_link.stl
+[1.025s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/wrist3.stl
+[1.025s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/robotiq_85_knuckle_link.stl
+[1.025s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/robotiq_85_finger_link.stl
+[1.025s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/upperarm.stl
+[1.025s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/robotiq_85_base_link.stl
+[1.026s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/forearm.stl
+[1.026s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/robotiq_85_inner_knuckle_link.stl
+[1.026s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/wrist1.stl
+[1.026s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/SuctionCup.stl
+[1.026s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/wrist2.stl
+[1.027s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/meshes/collision/ur5/base.stl
+[1.027s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ament_index/resource_index/package_run_dependencies/ur5_description
+[1.027s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ament_index/resource_index/parent_prefix_path/ur5_description
+[1.027s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/environment/ament_prefix_path.sh
+[1.027s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/environment/ament_prefix_path.dsv
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/environment/path.sh
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/environment/path.dsv
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/local_setup.bash
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/local_setup.sh
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/local_setup.zsh
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/local_setup.dsv
+[1.028s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.dsv
+[1.029s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ament_index/resource_index/packages/ur5_description
+[1.029s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/cmake/ur5_descriptionConfig.cmake
+[1.029s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/cmake/ur5_descriptionConfig-version.cmake
+[1.029s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.xml
+[1.059s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description

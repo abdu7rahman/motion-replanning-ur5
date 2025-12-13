@@ -1,0 +1,27 @@
+# Clock
+- ros_topic_name: "clock"
+  gz_topic_name: "clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+
+# RGB Image
+- ros_topic_name: "/camera/color/image_raw"
+  gz_topic_name: "/rgbd_camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+# Depth Image  
+- ros_topic_name: "/camera/depth/image_raw"
+  gz_topic_name: "/rgbd_camera/depth"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+# Point Cloud
+- ros_topic_name: "/camera/depth/points"
+  gz_topic_name: "/rgbd_camera/depth/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS

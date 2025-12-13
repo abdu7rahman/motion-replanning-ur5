@@ -1,0 +1,49 @@
+[0.028s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrahman/me5250/src/ur5_ws/src/ur5_controller -DCMAKE_INSTALL_PREFIX=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller
+[0.116s] -- The C compiler identification is GNU 11.5.0
+[0.214s] -- The CXX compiler identification is GNU 11.5.0
+[0.248s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.483s] -- Detecting CXX compiler ABI info
+[0.672s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.694s] -- Detecting CXX compile features
+[0.695s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.144s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.492s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.741s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.741s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.743s] -- Added test 'lint_cmake' to check CMake code style
+[1.745s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.748s] -- Added test 'xmllint' to check XML markup files
+[1.752s] -- Configuring done (1.7s)
+[1.756s] -- Generating done (0.0s)
+[1.759s] -- Build files have been written to: /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller
+[1.768s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrahman/me5250/src/ur5_ws/src/ur5_controller -DCMAKE_INSTALL_PREFIX=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller
+[1.769s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller -- -j16 -l16
+[1.835s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller -- -j16 -l16
+[1.852s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller
+[1.866s] -- Install configuration: ""
+[1.867s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/launch
+[1.867s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/launch/controller.launch.py
+[1.867s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/config
+[1.867s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/config/ros2_controllers.yaml
+[1.867s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+[1.867s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+[1.868s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+[1.868s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+[1.868s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/environment/path.sh
+[1.869s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/environment/path.dsv
+[1.869s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.bash
+[1.869s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.sh
+[1.869s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.zsh
+[1.870s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.dsv
+[1.870s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv
+[1.870s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+[1.870s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+[1.871s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+[1.871s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.xml
+[1.877s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller

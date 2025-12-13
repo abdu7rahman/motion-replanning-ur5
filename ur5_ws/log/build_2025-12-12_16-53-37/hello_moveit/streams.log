@@ -1,0 +1,22 @@
+[0.046s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit -- -j16 -l16
+[0.091s] [100%] Built target hello_moveit
+[0.256s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit -- -j16 -l16
+[0.266s] Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit
+[0.271s] -- Install configuration: ""
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+[0.272s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[0.273s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+[0.273s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+[0.273s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[0.273s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[0.273s] -- Installing: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.dsv
+[0.273s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[0.273s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[0.274s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[0.274s] -- Up-to-date: /home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.xml
+[0.283s] Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit

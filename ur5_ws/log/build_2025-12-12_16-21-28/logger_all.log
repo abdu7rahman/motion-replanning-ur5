@@ -1,0 +1,393 @@
+[0.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78ec9facf170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ec9facedb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ec9facedb0>>, mixin_verb=('build',))
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.116s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abdulrahman/me5250/src/ur5_ws'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_controller' with type 'ros.ament_cmake' and name 'ur5_controller'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_description) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_description' with type 'ros.ament_cmake' and name 'ur5_description'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_moveit' with type 'ros.ament_cmake' and name 'ur5_moveit'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit_config) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_moveit_config' with type 'ros.ament_cmake' and name 'ur5_moveit_config'
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.157s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/abdulrahman/me5250/install/mujoco_ur_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.157s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/abdulrahman/me5250/install/bin_picking_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.159s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/abdulrahman/ur5_ws/install
+[0.159s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/abdulrahman/me5250_ws/install
+[0.160s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/abdulrahman/me5250/install
+[0.162s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 653 installed packages in /opt/ros/jazzy
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'hello_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit', 'merge_install': False, 'path': '/home/abdulrahman/me5250/src/ur5_ws/src/hello_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller', 'merge_install': False, 'path': '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_controller', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'ur5_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description', 'merge_install': False, 'path': '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_description', 'symlink_install': False, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit', 'merge_install': False, 'path': '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config', 'merge_install': False, 'path': '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.237s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_description' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_description'
+[0.240s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abdulrahman/me5250/src/ur5_ws/src/hello_moveit' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abdulrahman/me5250/src/ur5_ws/src/hello_moveit'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_controller' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_controller'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description -- -j16 -l16
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit -- -j16 -l16
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller -- -j16 -l16
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit -- -j16 -l16
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description -- -j16 -l16
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description
+[0.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_description)
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_description
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description' for CMake module files
+[0.313s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description' for CMake config files
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_description', 'cmake_prefix_path')
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/hook/cmake_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/hook/cmake_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/hook/cmake_prefix_path.sh'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/bin'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/lib/pkgconfig/ur5_description.pc'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/lib/python3.12/site-packages'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/bin'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.bash'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.zsh'
+[0.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/colcon-core/packages/ur5_description)
+[0.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_description)
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description' for CMake module files
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description' for CMake config files
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_description', 'cmake_prefix_path')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/hook/cmake_prefix_path.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/hook/cmake_prefix_path.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/hook/cmake_prefix_path.sh'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/bin'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/lib/pkgconfig/ur5_description.pc'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/lib/python3.12/site-packages'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/bin'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.sh'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.bash'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/ur5_description/package.zsh'
+[0.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description/share/colcon-core/packages/ur5_description)
+[0.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit_config' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abdulrahman/me5250/src/ur5_ws/src/ur5_moveit_config'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit -- -j16 -l16
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller -- -j16 -l16
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit -- -j16 -l16
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config': AMENT_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_moveit_config:/home/abdulrahman/ur5_ws/install/ur5_moveit:/home/abdulrahman/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_controller:/home/abdulrahman/ur5_ws/install/hello_moveit:/home/abdulrahman/me5250_ws/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur_robotiq_description:/home/abdulrahman/me5250_ws/install/ur_robotiq_bringup:/home/abdulrahman/me5250_ws/install/ur_interfaces:/home/abdulrahman/me5250_ws/install/ur_gazebo:/home/abdulrahman/me5250_ws/install/ur_description:/home/abdulrahman/me5250_ws/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_cell:/home/abdulrahman/me5250_ws/install/robotiq_hardware_tests:/home/abdulrahman/me5250_ws/install/robotiq_driver:/home/abdulrahman/me5250_ws/install/serial:/home/abdulrahman/me5250_ws/install/robotiq_description:/home/abdulrahman/me5250_ws/install/robotiq_controllers:/home/abdulrahman/me5250/install/robotiq_hardware_tests:/home/abdulrahman/me5250/install/robotiq_driver:/home/abdulrahman/me5250/install/serial:/home/abdulrahman/me5250/install/robotiq_description:/home/abdulrahman/me5250/install/robotiq_controllers:/home/abdulrahman/me5250/install/ur_robotiq_description:/home/abdulrahman/me5250/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250/install/ur_interfaces:/home/abdulrahman/me5250/install/ur_gazebo:/home/abdulrahman/me5250/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config -- -j16 -l16
+[0.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_controller)
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller' for CMake module files
+[0.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_controller
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller' for CMake config files
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_controller', 'cmake_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.ps1'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.dsv'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.sh'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/bin'
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/lib/pkgconfig/ur5_controller.pc'
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/lib/python3.12/site-packages'
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/bin'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.bash'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.zsh'
+[0.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/colcon-core/packages/ur5_controller)
+[0.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_controller)
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller' for CMake module files
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller' for CMake config files
+[0.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_controller', 'cmake_prefix_path')
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.ps1'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.sh'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/bin'
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/lib/pkgconfig/ur5_controller.pc'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/lib/python3.12/site-packages'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/bin'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.bash'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/ur5_controller/package.zsh'
+[0.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_controller/share/colcon-core/packages/ur5_controller)
+[0.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit)
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit' for CMake module files
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit' for CMake config files
+[0.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'cmake_prefix_path')
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.ps1'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.dsv'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.sh'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/bin'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/pkgconfig/ur5_moveit.pc'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages'
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/bin'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.sh'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.bash'
+[0.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.zsh'
+[0.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/colcon-core/packages/ur5_moveit)
+[0.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit)
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit' for CMake module files
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit' for CMake config files
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'cmake_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.sh'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/bin'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/pkgconfig/ur5_moveit.pc'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/bin'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.bash'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/package.zsh'
+[0.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/colcon-core/packages/ur5_moveit)
+[0.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit' for CMake module files
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit' for CMake config files
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/hello_moveit
+[0.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/bin'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib/python3.12/site-packages'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/bin'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[0.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[0.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit' for CMake module files
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit' for CMake config files
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/bin'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/lib/python3.12/site-packages'
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/bin'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[0.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_moveit_config:/home/abdulrahman/ur5_ws/install/ur5_moveit:/home/abdulrahman/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_controller:/home/abdulrahman/ur5_ws/install/hello_moveit:/home/abdulrahman/me5250_ws/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur_robotiq_description:/home/abdulrahman/me5250_ws/install/ur_robotiq_bringup:/home/abdulrahman/me5250_ws/install/ur_interfaces:/home/abdulrahman/me5250_ws/install/ur_gazebo:/home/abdulrahman/me5250_ws/install/ur_description:/home/abdulrahman/me5250_ws/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_cell:/home/abdulrahman/me5250_ws/install/robotiq_hardware_tests:/home/abdulrahman/me5250_ws/install/robotiq_driver:/home/abdulrahman/me5250_ws/install/serial:/home/abdulrahman/me5250_ws/install/robotiq_description:/home/abdulrahman/me5250_ws/install/robotiq_controllers:/home/abdulrahman/me5250/install/robotiq_hardware_tests:/home/abdulrahman/me5250/install/robotiq_driver:/home/abdulrahman/me5250/install/serial:/home/abdulrahman/me5250/install/robotiq_description:/home/abdulrahman/me5250/install/robotiq_controllers:/home/abdulrahman/me5250/install/ur_robotiq_description:/home/abdulrahman/me5250/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250/install/ur_interfaces:/home/abdulrahman/me5250/install/ur_gazebo:/home/abdulrahman/me5250/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config -- -j16 -l16
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config': AMENT_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_moveit_config:/home/abdulrahman/ur5_ws/install/ur5_moveit:/home/abdulrahman/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_controller:/home/abdulrahman/ur5_ws/install/hello_moveit:/home/abdulrahman/me5250_ws/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur_robotiq_description:/home/abdulrahman/me5250_ws/install/ur_robotiq_bringup:/home/abdulrahman/me5250_ws/install/ur_interfaces:/home/abdulrahman/me5250_ws/install/ur_gazebo:/home/abdulrahman/me5250_ws/install/ur_description:/home/abdulrahman/me5250_ws/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_cell:/home/abdulrahman/me5250_ws/install/robotiq_hardware_tests:/home/abdulrahman/me5250_ws/install/robotiq_driver:/home/abdulrahman/me5250_ws/install/serial:/home/abdulrahman/me5250_ws/install/robotiq_description:/home/abdulrahman/me5250_ws/install/robotiq_controllers:/home/abdulrahman/me5250/install/robotiq_hardware_tests:/home/abdulrahman/me5250/install/robotiq_driver:/home/abdulrahman/me5250/install/serial:/home/abdulrahman/me5250/install/robotiq_description:/home/abdulrahman/me5250/install/robotiq_controllers:/home/abdulrahman/me5250/install/ur_robotiq_description:/home/abdulrahman/me5250/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250/install/ur_interfaces:/home/abdulrahman/me5250/install/ur_gazebo:/home/abdulrahman/me5250/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config
+[0.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit_config)
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config' for CMake module files
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config' for CMake config files
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrahman/me5250/src/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_moveit_config:/home/abdulrahman/ur5_ws/install/ur5_moveit:/home/abdulrahman/ur5_ws/install/ur5_description:/home/abdulrahman/ur5_ws/install/ur5_controller:/home/abdulrahman/ur5_ws/install/hello_moveit:/home/abdulrahman/me5250_ws/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur_robotiq_description:/home/abdulrahman/me5250_ws/install/ur_robotiq_bringup:/home/abdulrahman/me5250_ws/install/ur_interfaces:/home/abdulrahman/me5250_ws/install/ur_gazebo:/home/abdulrahman/me5250_ws/install/ur_description:/home/abdulrahman/me5250_ws/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_moveit_config:/home/abdulrahman/me5250_ws/install/ur10e_robotiq_cell:/home/abdulrahman/me5250_ws/install/robotiq_hardware_tests:/home/abdulrahman/me5250_ws/install/robotiq_driver:/home/abdulrahman/me5250_ws/install/serial:/home/abdulrahman/me5250_ws/install/robotiq_description:/home/abdulrahman/me5250_ws/install/robotiq_controllers:/home/abdulrahman/me5250/install/robotiq_hardware_tests:/home/abdulrahman/me5250/install/robotiq_driver:/home/abdulrahman/me5250/install/serial:/home/abdulrahman/me5250/install/robotiq_description:/home/abdulrahman/me5250/install/robotiq_controllers:/home/abdulrahman/me5250/install/ur_robotiq_description:/home/abdulrahman/me5250/install/ur_robotiq_moveit_config:/home/abdulrahman/me5250/install/ur_interfaces:/home/abdulrahman/me5250/install/ur_gazebo:/home/abdulrahman/me5250/install/robotiq_2f_85_gripper_visualization:/home/abdulrahman/me5250/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abdulrahman/me5250_ws/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/ur_gazebo_demo:/home/abdulrahman/me5250/install/reactive_replanning:/home/abdulrahman/me5250/install/mujoco_ur_bridge:/home/abdulrahman/me5250/install/bin_picking_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit_config
+[0.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit_config', 'cmake_prefix_path')
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/hook/cmake_prefix_path.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/hook/cmake_prefix_path.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/hook/cmake_prefix_path.sh'
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/bin'
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/lib/pkgconfig/ur5_moveit_config.pc'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/lib/python3.12/site-packages'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/bin'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.ps1'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.sh'
+[0.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.bash'
+[0.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.zsh'
+[0.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/colcon-core/packages/ur5_moveit_config)
+[0.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit_config)
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config' for CMake module files
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config' for CMake config files
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit_config', 'cmake_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/hook/cmake_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/hook/cmake_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/hook/cmake_prefix_path.sh'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/bin'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/lib/pkgconfig/ur5_moveit_config.pc'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/lib/python3.12/site-packages'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/bin'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.bash'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/ur5_moveit_config/package.zsh'
+[0.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit_config/share/colcon-core/packages/ur5_moveit_config)
+[0.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.381s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.391s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.403s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdulrahman/me5250/src/ur5_ws/install/_local_setup_util_ps1.py'
+[0.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.sh'
+[0.406s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdulrahman/me5250/src/ur5_ws/install/_local_setup_util_sh.py'
+[0.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.bash'
+[0.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.bash'
+[0.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdulrahman/me5250/src/ur5_ws/install/local_setup.zsh'
+[0.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdulrahman/me5250/src/ur5_ws/install/setup.zsh'

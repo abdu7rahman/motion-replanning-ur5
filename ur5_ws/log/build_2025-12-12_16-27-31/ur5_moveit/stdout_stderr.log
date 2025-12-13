@@ -1,0 +1,31 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing ur5_moveit.egg-info/PKG-INFO
+writing dependency_links to ur5_moveit.egg-info/dependency_links.txt
+writing entry points to ur5_moveit.egg-info/entry_points.txt
+writing requirements to ur5_moveit.egg-info/requires.txt
+writing top-level names to ur5_moveit.egg-info/top_level.txt
+reading manifest file 'ur5_moveit.egg-info/SOURCES.txt'
+writing manifest file 'ur5_moveit.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/python3.12/site-packages/ur5-moveit.egg-link (link to .)
+Installing insert_obstacle script to /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/ur5_moveit
+Installing reactive_replanning script to /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/lib/ur5_moveit
+
+Installed /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit
+running symlink_data
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/resource/ur5_moveit -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ament_index/resource_index/packages
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/package.xml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/launch/simulated_robot.launch.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/launch
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/launch/moveit.launch.py -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/launch
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/moveit.rviz -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/pilz_cartesian_limits.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/initial_positions.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/joint_limits.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/moveit_controllers.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/kinematics.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/ur5_robot.srdf -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/ros2_controllers.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
+symbolically linking /home/abdulrahman/me5250/src/ur5_ws/build/ur5_moveit/config/controller_setting.yaml -> /home/abdulrahman/me5250/src/ur5_ws/install/ur5_moveit/share/ur5_moveit/config
