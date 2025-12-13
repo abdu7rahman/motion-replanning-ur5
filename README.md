@@ -36,10 +36,8 @@ A 6-DOF manipulator reaching a 6-DOF Cartesian pose admits multiple valid joint 
 
 ## Installation
 ```bash
-mkdir -p ~/me5250/src
-cd ~/me5250/src
-git clone https://github.com/YOUR_USERNAME/dynamic_pick_place.git
-cd ..
+git@github.com:abdu7rahman/reactive-replanning-ur5.git
+cd ur_ws/
 colcon build
 source install/setup.bash
 ```
